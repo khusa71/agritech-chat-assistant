@@ -1,0 +1,428 @@
+# Crop Requirements Database
+# This file contains the agronomic requirements for major crops grown in India
+
+crops:
+  wheat:
+    crop_name: "wheat"
+    ph_min: 6.0
+    ph_max: 8.5
+    ph_optimal: 7.0
+    temp_min_c: 10.0
+    temp_max_c: 35.0
+    temp_optimal_c: 20.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 120
+    typical_yield_per_acre: 3000.0
+    base_market_price_per_kg: 25.0
+
+  rice:
+    crop_name: "rice"
+    ph_min: 5.5
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 20.0
+    temp_max_c: 40.0
+    temp_optimal_c: 30.0
+    rainfall_min_mm: 1000.0
+    rainfall_max_mm: 2000.0
+    growing_season_months: [6, 7, 8, 9, 10, 11]
+    soil_types: ["clay", "clay_loam", "silty_clay"]
+    water_requirement: "high"
+    growth_duration_days: 150
+    typical_yield_per_acre: 4000.0
+    base_market_price_per_kg: 35.0
+
+  maize:
+    crop_name: "maize"
+    ph_min: 5.5
+    ph_max: 8.0
+    ph_optimal: 6.5
+    temp_min_c: 15.0
+    temp_max_c: 35.0
+    temp_optimal_c: 25.0
+    rainfall_min_mm: 500.0
+    rainfall_max_mm: 1000.0
+    growing_season_months: [6, 7, 8, 9, 10]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 100
+    typical_yield_per_acre: 3500.0
+    base_market_price_per_kg: 20.0
+
+  soybean:
+    crop_name: "soybean"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.8
+    temp_min_c: 15.0
+    temp_max_c: 35.0
+    temp_optimal_c: 25.0
+    rainfall_min_mm: 600.0
+    rainfall_max_mm: 1200.0
+    growing_season_months: [6, 7, 8, 9, 10]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 110
+    typical_yield_per_acre: 2000.0
+    base_market_price_per_kg: 45.0
+
+  cotton:
+    crop_name: "cotton"
+    ph_min: 5.5
+    ph_max: 8.5
+    ph_optimal: 7.0
+    temp_min_c: 20.0
+    temp_max_c: 40.0
+    temp_optimal_c: 30.0
+    rainfall_min_mm: 500.0
+    rainfall_max_mm: 1000.0
+    growing_season_months: [4, 5, 6, 7, 8, 9, 10]
+    soil_types: ["clay", "clay_loam", "loam"]
+    water_requirement: "medium"
+    growth_duration_days: 180
+    typical_yield_per_acre: 800.0
+    base_market_price_per_kg: 60.0
+
+  sugarcane:
+    crop_name: "sugarcane"
+    ph_min: 6.0
+    ph_max: 8.0
+    ph_optimal: 7.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1000.0
+    rainfall_max_mm: 2000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["clay", "clay_loam", "loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 80000.0
+    base_market_price_per_kg: 3.0
+
+  groundnut:
+    crop_name: "groundnut"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 500.0
+    rainfall_max_mm: 1000.0
+    growing_season_months: [6, 7, 8, 9, 10]
+    soil_types: ["sandy_loam", "loam", "sandy_clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 120
+    typical_yield_per_acre: 1500.0
+    base_market_price_per_kg: 80.0
+
+  mustard:
+    crop_name: "mustard"
+    ph_min: 6.0
+    ph_max: 8.0
+    ph_optimal: 7.0
+    temp_min_c: 10.0
+    temp_max_c: 30.0
+    temp_optimal_c: 20.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "low"
+    growth_duration_days: 100
+    typical_yield_per_acre: 1200.0
+    base_market_price_per_kg: 55.0
+
+  potato:
+    crop_name: "potato"
+    ph_min: 5.0
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 10.0
+    temp_max_c: 30.0
+    temp_optimal_c: 20.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 90
+    typical_yield_per_acre: 20000.0
+    base_market_price_per_kg: 15.0
+
+  onion:
+    crop_name: "onion"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 15.0
+    temp_max_c: 35.0
+    temp_optimal_c: 25.0
+    rainfall_min_mm: 300.0
+    rainfall_max_mm: 600.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 120
+    typical_yield_per_acre: 15000.0
+    base_market_price_per_kg: 20.0
+
+  tomato:
+    crop_name: "tomato"
+    ph_min: 6.0
+    ph_max: 7.0
+    ph_optimal: 6.5
+    temp_min_c: 15.0
+    temp_max_c: 35.0
+    temp_optimal_c: 25.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [10, 11, 12, 1, 2, 3, 4, 5]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 90
+    typical_yield_per_acre: 25000.0
+    base_market_price_per_kg: 30.0
+
+  brinjal:
+    crop_name: "brinjal"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 500.0
+    rainfall_max_mm: 1000.0
+    growing_season_months: [6, 7, 8, 9, 10, 11]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 120
+    typical_yield_per_acre: 20000.0
+    base_market_price_per_kg: 25.0
+
+  chilli:
+    crop_name: "chilli"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [6, 7, 8, 9, 10, 11]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 150
+    typical_yield_per_acre: 2000.0
+    base_market_price_per_kg: 120.0
+
+  turmeric:
+    crop_name: "turmeric"
+    ph_min: 5.5
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1000.0
+    rainfall_max_mm: 2000.0
+    growing_season_months: [4, 5, 6, 7, 8, 9, 10, 11]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 200
+    typical_yield_per_acre: 8000.0
+    base_market_price_per_kg: 150.0
+
+  ginger:
+    crop_name: "ginger"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1000.0
+    rainfall_max_mm: 2000.0
+    growing_season_months: [4, 5, 6, 7, 8, 9, 10, 11]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "medium"
+    growth_duration_days: 200
+    typical_yield_per_acre: 6000.0
+    base_market_price_per_kg: 200.0
+
+  garlic:
+    crop_name: "garlic"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 15.0
+    temp_max_c: 30.0
+    temp_optimal_c: 22.0
+    rainfall_min_mm: 300.0
+    rainfall_max_mm: 600.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 120
+    typical_yield_per_acre: 8000.0
+    base_market_price_per_kg: 80.0
+
+  coriander:
+    crop_name: "coriander"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 15.0
+    temp_max_c: 30.0
+    temp_optimal_c: 22.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 60
+    typical_yield_per_acre: 1000.0
+    base_market_price_per_kg: 100.0
+
+  cumin:
+    crop_name: "cumin"
+    ph_min: 6.0
+    ph_max: 8.0
+    ph_optimal: 7.0
+    temp_min_c: 15.0
+    temp_max_c: 30.0
+    temp_optimal_c: 22.0
+    rainfall_min_mm: 300.0
+    rainfall_max_mm: 600.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 120
+    typical_yield_per_acre: 500.0
+    base_market_price_per_kg: 300.0
+
+  fenugreek:
+    crop_name: "fenugreek"
+    ph_min: 6.0
+    ph_max: 7.5
+    ph_optimal: 6.5
+    temp_min_c: 15.0
+    temp_max_c: 30.0
+    temp_optimal_c: 22.0
+    rainfall_min_mm: 400.0
+    rainfall_max_mm: 800.0
+    growing_season_months: [10, 11, 12, 1, 2, 3]
+    soil_types: ["loam", "sandy_loam", "clay_loam"]
+    water_requirement: "low"
+    growth_duration_days: 90
+    typical_yield_per_acre: 800.0
+    base_market_price_per_kg: 80.0
+
+  cardamom:
+    crop_name: "cardamom"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 15.0
+    temp_max_c: 30.0
+    temp_optimal_c: 22.0
+    rainfall_min_mm: 1500.0
+    rainfall_max_mm: 3000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 200.0
+    base_market_price_per_kg: 2000.0
+
+  pepper:
+    crop_name: "pepper"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1500.0
+    rainfall_max_mm: 3000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 500.0
+    base_market_price_per_kg: 500.0
+
+  cinnamon:
+    crop_name: "cinnamon"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1500.0
+    rainfall_max_mm: 3000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 300.0
+    base_market_price_per_kg: 800.0
+
+  cloves:
+    crop_name: "cloves"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1500.0
+    rainfall_max_mm: 3000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 200.0
+    base_market_price_per_kg: 1200.0
+
+  nutmeg:
+    crop_name: "nutmeg"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1500.0
+    rainfall_max_mm: 3000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 300.0
+    base_market_price_per_kg: 600.0
+
+  mace:
+    crop_name: "mace"
+    ph_min: 5.5
+    ph_max: 7.0
+    ph_optimal: 6.0
+    temp_min_c: 20.0
+    temp_max_c: 35.0
+    temp_optimal_c: 28.0
+    rainfall_min_mm: 1500.0
+    rainfall_max_mm: 3000.0
+    growing_season_months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    soil_types: ["loam", "clay_loam", "sandy_loam"]
+    water_requirement: "high"
+    growth_duration_days: 365
+    typical_yield_per_acre: 150.0
+    base_market_price_per_kg: 1500.0

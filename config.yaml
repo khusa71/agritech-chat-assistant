@@ -1,0 +1,56 @@
+# Application Configuration
+app:
+  name: "AgriTech Crop Recommendation"
+  version: "1.0.0"
+  environment: "development"
+
+# Database Configuration
+database:
+  pool_size: 10
+  max_overflow: 20
+  pool_timeout: 30
+  pool_recycle: 3600
+
+# API Configuration
+apis:
+  soilgrids:
+    base_url: "https://rest.isric.org/soilgrids/v2.0"
+    timeout: 10
+    retry_attempts: 3
+    cache_ttl_days: 30
+  
+  openweather:
+    base_url: "https://api.openweathermap.org/data/2.5"
+    timeout: 10
+    retry_attempts: 3
+    cache_ttl_days: 7
+    rate_limit_per_minute: 60
+  
+  rainfall:
+    base_url: "https://archive-api.open-meteo.com/v1"
+    timeout: 10
+    retry_attempts: 3
+    cache_ttl_days: 7
+  
+  market_prices:
+    cache_ttl_days: 1
+    volatility_window_months: 12
+
+# Crop Recommendation Configuration
+crop_recommendation:
+  max_crops: 5
+  min_suitability_score: 0.3
+  scoring_weights:
+    soil_ph_match: 0.30
+    temperature_suitability: 0.25
+    rainfall_adequacy: 0.25
+    soil_type_match: 0.10
+    water_availability: 0.10
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/agri_tech.log"
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
