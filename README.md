@@ -231,9 +231,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Agmarknet** for Indian agricultural market prices
 - **FastAPI** and **Streamlit** for the excellent frameworks
 
-## 📞 Support
-
-For support, email support@agritech-assistant.com or create an issue in this repository.
 
 ---
 
